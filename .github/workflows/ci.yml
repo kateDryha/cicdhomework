@@ -36,5 +36,5 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          mocha **/test.js --exit
+          mocha test.js --exit
 
