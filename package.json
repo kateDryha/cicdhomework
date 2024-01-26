@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "run": "node run build",
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "keywords": [],
   "author": "",
