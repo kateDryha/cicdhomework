@@ -37,8 +37,3 @@ jobs:
         run: |
           npm run test
 
-      - name: Update Project Code
-        run: |
-          git add .
-          git commit -m "CI: Update project code"
-          git push
