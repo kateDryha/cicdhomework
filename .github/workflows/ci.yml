@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: ContinuousIntegration CI
 
 on:
   push:
@@ -37,4 +37,6 @@ jobs:
       - name: Run Unit Tests
         run: |
           CI=true npm test
+        env:
+          CI: true
 
