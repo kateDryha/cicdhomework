@@ -27,6 +27,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
+          npm ci
           npm install mocha chai sinon supertest --save-dev
 
       - name: Build Project
@@ -35,5 +36,5 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          npm run test
+          npm test
 
